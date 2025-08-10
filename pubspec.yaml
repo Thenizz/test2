@@ -1,5 +1,5 @@
-name: resumerocket
-description: A modern Flutter resume builder app
+name: test2
+description: A modern Flutter app
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -11,13 +11,6 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  pdf: ^3.11.3
-  shared_preferences: ^2.2.3
-  barcode: ^2.2.9
-  qr: ^3.0.1
-  path_provider_linux: ^2.2.1
-  path_provider_windows: ^2.3.0
-  path_provider_platform_interface: ^2.1.2
 
 dev_dependencies:
   flutter_test:
