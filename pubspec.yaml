@@ -1,23 +1,27 @@
 name: resumerocket
-description: ResumeRocket — ATS-friendly resume builder with templates and PDF export.
-publish_to: "none"
-version: 0.1.0+1
+description: A modern Flutter resume builder app
+publish_to: 'none' 
+
+version: 1.0.0+1
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
-  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: any
-  pdf: any
-  printing: any
-  shared_preferences: any
+  cupertino_icons: ^1.0.8
+  pdf: ^3.11.3
+  shared_preferences: ^2.2.3
+  barcode: ^2.2.9
+  qr: ^3.0.1
+  path_provider_linux: ^2.2.1
+  path_provider_windows: ^2.3.0
+  path_provider_platform_interface: ^2.1.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
-  uses-material-design: true
+  uses-material-design: true
